@@ -96,7 +96,7 @@ namespace
     static const char* TEST_NOT_MODIFIED_OBJ_KEY = "TestNotModifiedObjectKey";
     static const char* TEST_OBJECT_LOCK_OBJ_KEY = "TestObjectLock";
     static const char* TEST_DNS_UNFRIENDLY_OBJ_KEY = "WhySoHostile";
-    static const char* TEST_EVENT_STREAM_OBJ_KEY = "TestEventStream.csv";
+    // static const char* TEST_EVENT_STREAM_OBJ_KEY = "TestEventStream.csv";
     //windows won't let you hard code unicode strings in a source file and assign them to a char*. Every other compiler does and I need to test this.
     //to get around this, this string is url encoded version of "TestUnicode中国Key". At test time, we'll convert it to the unicode string
     static const char* URLENCODED_UNICODE_KEY = "TestUnicode%E4%B8%AD%E5%9B%BDKey";
